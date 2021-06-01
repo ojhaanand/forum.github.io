@@ -1,0 +1,54 @@
+h2{
+    text-decoration: coral;
+    text-transform: uppercase;
+    color: crimson;
+}
+#ques{
+ min-height:300px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-div{
+    margin-left: 20px;
+}
+
+.send{
+    border-radius: 2px;
+    width: 140px;
+    display: inline-block;
+    justify-content: center;
+}
+.send:hover{
+    
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact label{
+    color: white;
+}
+
+.contact p{
+    color:black;
+    text-align: center;
+}
+.contact li i{
+    color: darkolivegreen;
+}
+.btn{
+    min-width:100px;
+}
+
+.btn-contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn-contact:hover{
+    color: aqua;
+}
